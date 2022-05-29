@@ -1,0 +1,702 @@
+html{
+    
+    overflow-y: scroll;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+@font-face {
+    font-family: speda;
+    src: url(font/Speda.ttf);
+}
+
+
+
+
+.cover{
+    
+  display: flex;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+
+.bg-image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 20%;
+    background: grey;
+    
+}
+
+body{
+    background-color: #262730;
+    
+}
+
+.logo{
+    position: absolute;
+    width: 14%;
+    height: 28%;
+    display: flex;
+    right: 44%;
+    top: 26%;
+    
+}
+
+.logo-link{
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    margin: 1%;
+    left: 89%;
+    top: 2%;
+    
+}
+ul{
+    
+    position: absolute;
+    bottom: 90%;
+    left: 41%;
+}
+
+li{
+    display: inline;
+    margin: 1vh;
+    
+    
+   
+}
+#nav-text{
+   text-decoration: none;
+   color: rgb(225, 226, 228);
+   font-size: 2.5vh;
+font-family: speda;
+text-shadow: -0.32vh 0.16vh 0.32vh black;
+cursor: pointer;
+}
+
+#nav-text:hover{
+color: #98989c;
+}
+
+.nt1:hover{
+    color: #98989c;
+    }
+
+.nt1::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 0.08vh;
+    width: 7%;
+    left: 92%;
+    bottom: -0.5vh;
+}
+
+.nt1{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2.5vh;
+    font-family: speda;
+    text-shadow: -0.32vh 0.16vh 0.32vh black;
+}
+.container{
+    position: absolute;
+    right: 38%;
+    top: 58%;
+    height: 25%;
+    display: flex;
+    width: 27%;
+    
+}
+
+.search-bar{
+    width: 130%;
+    max-width: 113.5vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    border-radius: 9.7vh;
+
+    height: 8vh;
+    
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    font-family: speda;
+padding: 4.5vh 5.5vh 3.5vh 3.2vh;
+}
+
+::placeholder{
+    float: right;
+    font-size: 2.5vh;
+    left: 0%;
+    position: absolute;
+    padding: 1vh 0vh 1vh 0vh;
+    bottom: 28%;
+    left: 10%;
+}
+
+.button-1 .btn-search{
+    background-color: #c1c1c8;
+    position: relative;
+    border-radius: 0vh 3.2vh 3.2vh 0vh;
+    display: flex;
+    font-size: 3vh;
+    padding: 1.3vh 1.6vh 0.81vh 0.81vh;
+    height: 6vh;
+    bottom: 0.023vh;
+    left: 0.048vh;
+    align-items: center;
+
+}
+.btn-search{
+    text-decoration: none;
+    font-family: speda;
+    color: #606068;
+    cursor: pointer;
+    height: 1vh;
+    
+}
+
+.btn-search:hover{
+    background-color: #95939b;
+    color: aliceblue;
+  
+}
+
+
+
+#sub-text{
+    font-family: speda;
+    font-size: 3vh;
+    color: aliceblue;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 36%;
+}
+
+#min-text{
+    color:#c2c2c2;
+    font-family: speda;
+    font-size: 2.5vh;
+    position: absolute;
+    top: 81%;
+    left: 42%;
+}
+
+#new-film-text{
+    font-family: speda;
+    color: white;
+    position: absolute;
+    top: 105%;
+    left: 44%;
+    font-size: 3.5vh;
+}
+
+.line-1{
+    width: 35%;
+    height: 0.1%;
+    position: absolute;
+    top: 107.5%;
+    left: 6%;
+    background-color: grey;
+}
+
+.line-2{
+    width: 35%;
+    height: 0.1%;
+    position: absolute;
+    top: 107.5%;
+    left: 58%;
+    background-color: grey;
+}
+
+.poster-1{
+    height: 50%;
+    width: 15%;
+    display: flex;
+    position: absolute;
+    margin: 0vh 1vh 2vh 10vh;
+    top: 113%;
+    align-items: flex-end;
+    
+}
+
+.post-1{
+    height: 100%;
+    width: 100%;
+    border-radius: 7%;
+    box-shadow: 0vh 0vh 1.2vh black;
+    cursor: pointer;
+}
+
+.post-1:hover{
+filter: blur(2px);
+}
+.pt-1{
+    color: white;
+    font-family: speda;
+    font-size: 1.5vh;
+    display: block;
+    position: absolute;
+    bottom: 95%;
+    left: 65%;
+}
+
+
+
+.poster-2{
+    height: 50%;
+    width: 15%;
+    display: flex;
+    position: absolute;
+    margin: 0vh 1vh 2vh 7vh;
+    top: 113%;
+    align-items: flex-end;
+    left: 20%;
+    
+}
+
+.post-2{
+    height: 100%;
+    width: 100%;
+    border-radius: 7%;
+    box-shadow: 0vh 0vh 1.2vh black;
+    cursor: pointer;
+}
+
+.post-2:hover{
+    filter: blur(2px);
+    }
+
+.pt-2{
+    color: white;
+    font-family: speda;
+    font-size: 1.5vh;
+    display: block;
+    position: absolute;
+    bottom: 95%;
+    left: 64%;
+}
+
+
+
+.poster-3{
+    height: 50%;
+    width: 15%;
+    display: flex;
+    position: absolute;
+    margin: 0vh 1vh 2vh 7vh;
+    top: 113%;
+    align-items: flex-end;
+    left: 39%;
+    
+}
+
+.post-3{
+    height: 100%;
+    width: 100%;
+    border-radius: 7%;
+    box-shadow: 0vh 0vh 1.2vh black;
+    cursor: pointer;
+}
+
+.post-3:hover{
+    filter: blur(2px);
+    }
+
+.pt-3{
+    color: white;
+    font-family: speda;
+    font-size: 1.5vh;
+    display: block;
+    position: absolute;
+    bottom: 95%;
+    left: 57%;
+}
+
+
+.poster-4{
+    height: 50%;
+    width: 15%;
+    display: flex;
+    position: absolute;
+    margin: 0vh 1vh 2vh 7vh;
+    top: 113%;
+    align-items: flex-end;
+    left: 58%;
+    
+}
+
+.post-4{
+    height: 100%;
+    width: 100%;
+    border-radius: 7%;
+    box-shadow: 0vh 0vh 1.2vh black;
+    cursor: pointer;
+}
+
+.post-4:hover{
+    filter: blur(2px);
+    }
+
+.pt-4{
+    color: white;
+    font-family: speda;
+    font-size: 1.5vh;
+    display: block;
+    position: absolute;
+    bottom: 95%;
+    left: 50%;
+}
+
+
+.poster-5{
+    height: 50%;
+    width: 15%;
+    display: flex;
+    position: absolute;
+    margin: 0vh 1vh 2vh 7vh;
+    top: 113%;
+    align-items: flex-end;
+    left: 76%;
+    
+}
+
+.post-5{
+    height: 100%;
+    width: 100%;
+    border-radius: 7%;
+    box-shadow: 0vh 0vh 1.2vh black;
+    cursor: pointer;
+}
+
+.post-5:hover{
+    filter: blur(2px);
+    }
+
+.pt-5{
+    color: white;
+    font-family: speda;
+    font-size: 1.5vh;
+    display: block;
+    position: absolute;
+    bottom: 95%;
+    left: 25%;
+}
+
+
+.poster-6{
+    height: 50%;
+    width: 15%;
+    display: flex;
+    position: absolute;
+    margin: 0vh 1vh 2vh 10vh;
+    top: 166%;
+    align-items: flex-end;
+
+    
+}
+
+.post-6{
+    height: 100%;
+    width: 100%;
+    border-radius: 7%;
+    box-shadow: 0vh 0vh 1.2vh black;
+    cursor: pointer;
+}
+
+.post-6:hover{
+    filter: blur(2px);
+    }
+
+.pt-6{
+    color: white;
+    font-family: speda;
+    font-size: 1.5vh;
+    display: block;
+    position: absolute;
+    bottom: 95%;
+    left: 10%;
+}
+
+
+.poster-7{
+    height: 50%;
+    width: 15%;
+    display: flex;
+    position: absolute;
+    margin: 0vh 1vh 2vh 7vh;
+    top: 166%;
+    align-items: flex-end;
+    left: 20%;
+    
+}
+
+.post-7{
+    height: 100%;
+    width: 100%;
+    border-radius: 7%;
+    box-shadow: 0vh 0vh 1.2vh black;
+    cursor: pointer;
+}
+
+.post-7:hover{
+    filter: blur(2px);
+    }
+
+.pt-7{
+    color: white;
+    font-family: speda;
+    font-size: 1.5vh;
+    display: block;
+    position: absolute;
+    bottom: 95%;
+    left: 45%;
+}
+
+
+.poster-8{
+    height: 50%;
+    width: 15%;
+    display: flex;
+    position: absolute;
+    margin: 0vh 1vh 2vh 7vh;
+    top: 166%;
+    align-items: flex-end;
+    left: 39%;
+    
+}
+
+.post-8{
+    height: 100%;
+    width: 100%;
+    border-radius: 7%;
+    box-shadow: 0vh 0vh 1.2vh black;
+    cursor: pointer;
+}
+
+.post-8:hover{
+    filter: blur(2px);
+    }
+
+.pt-8{
+    color: white;
+    font-family: speda;
+    font-size: 1.5vh;
+    display: block;
+    position: absolute;
+    bottom: 95%;
+    left: 7%;
+}
+
+
+.poster-9{
+    height: 50%;
+    width: 15%;
+    display: flex;
+    position: absolute;
+    margin: 0vh 1vh 2vh 7vh;
+    top: 166%;
+    align-items: flex-end;
+    left: 58%;
+    
+}
+
+.post-9{
+    height: 100%;
+    width: 100%;
+    border-radius: 7%;
+    box-shadow: 0vh 0vh 1.2vh black;
+    cursor: pointer;
+}
+
+.post-9:hover{
+    filter: blur(2px);
+    }
+.pt-9{
+    color: white;
+    font-family: speda;
+    font-size: 1.5vh;
+    display: block;
+    position: absolute;
+    bottom: 95%;
+    left: 57%;
+}
+
+
+.poster-10{
+    height: 50%;
+    width: 15%;
+    display: flex;
+    position: absolute;
+    margin: 0vh 1vh 2vh 7vh;
+    top: 166%;
+    align-items: flex-end;
+    left: 76%;
+    
+}
+
+.post-10{
+    height: 100%;
+    width: 100%;
+    border-radius: 7%;
+    box-shadow: 0vh 0vh 1.2vh black;
+    cursor: pointer;
+}
+
+.post-10:hover{
+    filter: blur(2px);
+    }
+
+.pt-10{
+    color: white;
+    font-family: speda;
+    font-size: 1.5vh;
+    display: block;
+    position: absolute;
+    bottom: 95%;
+    left: 66%;
+}
+
+#new-film-text2{
+    font-family: speda;
+    color: white;
+    position: absolute;
+    top: 227%;
+    left: 44%;
+    font-size: 3.5vh;
+}
+
+.line-3{
+    width: 35%;
+    height: 0.1%;
+    position: absolute;
+    top: 230%;
+    left: 6%;
+    background-color: grey;
+}
+
+.line-4{
+    width: 35%;
+    height: 0.1%;
+    position: absolute;
+    top: 230%;
+    left: 58%;
+    background-color: grey;
+}
+
+.rec-box{
+   
+  width: 90%;
+  height: 40%;
+    position: absolute;
+    background-image: url(images/moon.jpeg) ;
+    left: 4%;
+    background-position: 0vh -19vh;
+    border-radius: 7vh;
+    top: 240%;
+    cursor: pointer;
+    box-shadow: 0vh 0vh 2vh;
+}
+
+.moon-text{
+    font-family: speda;
+    font-size: 8vh;
+    color: white;
+    position: absolute;
+    left: 5vh;
+    top: 15vh;
+    cursor: pointer;
+}
+
+.rec-box:hover{
+    
+    
+    position: absolute;
+    box-shadow: 0vh 0vh 1vh;
+    
+}
+
+.label-1{
+    font-family: speda;
+    font-size: 3vh;
+    color: white;
+    position: absolute;
+    text-align: right;
+    top: 243%;
+    left: 68%;
+    
+
+}
+
+.label-moon-text{
+    padding: 2vh 0vh;
+    text-shadow: 0vh 0vh 2vh black;
+}
+
+
+.rec-box-2{
+   
+    width: 90%;
+    height: 40%;
+      position: absolute;
+      background-image: url(images/witcher.jpg) ;
+      left: 4%;
+      background-position: 0vh -40vh;
+      display: flex;
+      image-resolution: 1281*280;
+      border-radius: 7vh;
+      top: 290%;
+      cursor: pointer;
+      box-shadow: 0vh 0vh 2vh;
+  }
+  
+  .olaf-text{
+      font-family: speda;
+      font-size: 8vh;
+      color: white;
+      position: absolute;
+      left: 5vh;
+      top: 15vh;
+      cursor: pointer;
+  }
+
+  .rec-box-2:hover{
+    
+    
+    position: absolute;
+    box-shadow: 0vh 0vh 1vh;
+    
+}
+
+.label-2{
+    font-family: speda;
+    font-size: 3vh;
+    color: white;
+    position: absolute;
+    text-align: right;
+    top: 294%;
+    left: 68%;
+    padding-bottom: 10vh;
+
+}
+
+.label-witcher-text{
+    padding: 2vh 0vh;
+    text-shadow: 0vh 0vh 2vh black;
+}
